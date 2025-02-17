@@ -7,7 +7,7 @@
             event.preventDefault();
             let formData = new FormData(event.target);
 
-            let response = await fetch("https://hoshiproject.fwh.is/register.php", {
+            let response = await fetch("http://hoshiproject.fwh.is/register.php", {
                 method: "POST",
                 body: formData
             });
